@@ -111,3 +111,21 @@ body.theme-light .theme-toggle-button {
 .theme-toggle-button:hover {
   transform: scale(1.1);
 }
+/* Світла тема (за замовчуванням) */
+body {
+  background: #fff;
+  color: #000;
+}
+
+/* Темна тема */
+body.dark {
+  background: #1e1e1e;
+  color: #f0f0f0;
+}
+
+/* Додатково: стилі для елементів у .dark */
+body.dark input,
+body.dark button {
+  background: #333;
+  color: #f0f0f0;
+}
